@@ -109,7 +109,8 @@ class _HomeScreenState extends State<HomeScreen> {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            Image.asset('assets/images/hostel20.jpg'),
+            Image.asset(
+              'assets/images/hostel20.jpg'),
             Container(
               padding: const EdgeInsets.all(25),
               child: Column(
